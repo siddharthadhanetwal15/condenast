@@ -1,4 +1,4 @@
-# Condenast
+# Conde Nast
 ## Spring Boot Microservice application
 
 This microvervice is based on Spring Boot Architecture. The purpose of this microvervice is to print hello world when GET API is called, http://hostname:8080/api/v1/message
