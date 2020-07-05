@@ -14,4 +14,4 @@ Execute ```mvn spring-boot:run``` from project root directory
 5. To push docker image run ```docker push siddharthadhanetwal/condenast:latest .```
 
 # Run docker container locally
-```docker run -p 8080:8080 siddharthadhanetwal/condenast
+```docker run -p 8080:8080 siddharthadhanetwal/condenast```
