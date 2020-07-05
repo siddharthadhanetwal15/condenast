@@ -23,4 +23,4 @@ Run image with allowing incoming traffic from port 8080, ```docker run -p 8080:8
 3. To make your container accept connection on port 8080, please run this command ```kubectl port-forward svc/condenast 8080:8080```
 
 ## Deployment on AWS ElasticBeanStalk
-Docker image built from this project is deployed on AWS elastic beanstalk and can be accessed at, ```http://condenast-env.eba-9u2rcs3b.us-east-2.elasticbeanstalk.com/api/v1/message```
+Docker image built from this project is deployed on AWS elastic beanstalk and can be accessed at, http://condenast-env.eba-9u2rcs3b.us-east-2.elasticbeanstalk.com/api/v1/message
