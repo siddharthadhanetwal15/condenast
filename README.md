@@ -24,3 +24,9 @@ Run image with allowing incoming traffic from port 8080, ```docker run -p 8080:8
 
 ## Deployment on AWS ElasticBeanStalk
 Docker image built from this project is deployed on AWS elastic beanstalk and can be accessed at, http://condenast-env.eba-9u2rcs3b.us-east-2.elasticbeanstalk.com/api/v1/message
+
+## Deployment on ECS
+1. Create task definition - specify image to pull from docker hub
+2. Create fargate cluster. Make sure to allow traffic in security group
+3. Run the task, once the task is complete our spring boot app will be up on public ip
+http://18.217.119.27:8080/api/v1/message
